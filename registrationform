@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robb's Register Form Template</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="firstname" required>
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="lastname" required>
+        </div>
+        <br>
+        <p>Select a Race:
+        </p>
+        <div>
+            <label for="funrun">Fun Run 5k</label>
+            <input type="radio" name="race" id="funrun" value="funrun">
+        </div>
+        <br>
+        <div>
+            <label for="half">Half Marathon</label>
+            <input type="radio" name="race" id="half" value="half">
+        </div>
+        <br>
+        <div>
+            <label for="full">Full Marathon</label>
+            <input type="radio" name="race" id="full" value="full">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" value="email" required>
+            <label for="password">Email</label>
+            <input type="pasword" name="password" id="password" value="password" required>
+        </div>
+        <br>
+         <div>
+            <select name="division" id="division">
+            <label for="division">Slect Age Group</label>
+                <option value="kids">under 18</option>
+                <option value="young adults">18-30</option>
+                <option value="adults">31-50</option>
+                <option value="seniors">51 and up</option>
+            </select>
+        </div>
+        <br>
+        <button>Register</button>
+    </form>
+</body>
+</html>
